@@ -21,7 +21,6 @@ public class PersonController extends BaseController {
     @Autowired
     private IAccountService accountService;
 
-
     @Autowired
     private RedisCacheStorageService redisService;
 

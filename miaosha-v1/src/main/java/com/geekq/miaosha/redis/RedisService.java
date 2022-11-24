@@ -128,6 +128,9 @@ public class RedisService {
         return result;
     }
 
+    /**
+     * 可以把之前的锁去掉再重新获取
+     */
     public String getset(String key, String value) {
         Jedis jedis = null;
         String result = null;
